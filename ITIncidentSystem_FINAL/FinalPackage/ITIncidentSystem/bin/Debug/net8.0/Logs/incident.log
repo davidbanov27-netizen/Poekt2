@@ -1,0 +1,9 @@
+[2026-05-08 16:55:06] [INFO] CSV експорт: Logs\../Exports/incidents_week3.csv (30 записа)
+[2026-05-08 16:55:06] [INFO] TXT отчет: Logs\../Exports/critical_report.txt (6 записа)
+[CREATED]  [2026-05-08 16:55:09] INC-00002 | Тест1 | Medium | Open
+[ASSIGNED] [2026-05-08 16:55:09] INC-00002 | Тест1 | Medium | Open → InProgress | Техник: Кристина Василева
+[CREATED]  [2026-05-08 16:55:09] INC-00003 | Тест2 | Medium | Open
+[ASSIGNED] [2026-05-08 16:55:09] INC-00003 | Тест2 | Medium | Open → InProgress | Техник: Кристина Василева
+[CREATED]  [2026-05-08 16:55:09] INC-00004 | Тест3 | Medium | Open
+[ASSIGNED] [2026-05-08 16:55:09] INC-00004 | Тест3 | Medium | Open → InProgress | Техник: Кристина Василева
+[CREATED]  [2026-05-08 16:55:09] INC-00005 | Четвърти | Low | Open

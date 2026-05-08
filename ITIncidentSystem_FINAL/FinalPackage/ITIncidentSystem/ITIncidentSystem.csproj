@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>ITIncidentSystem</RootNamespace>
+    <AssemblyName>ITIncidentSystem</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- MySQL драйвер за .NET -->
+    <PackageReference Include="BouncyCastle.Cryptography" Version="2.6.2" />
+    <PackageReference Include="MySql.Data" Version="8.3.0" />
+    <!-- JSON сериализация (вградена в .NET 8, но явна референция за яснота) -->
+    <PackageReference Include="System.Text.Json" Version="7.0.4" />
+  </ItemGroup>
+
+  <!-- Копира JSON файловете в изходната директория -->
+  <ItemGroup>
+    <Content Include="Data\*.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
